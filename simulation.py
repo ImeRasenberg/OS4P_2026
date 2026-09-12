@@ -7,7 +7,7 @@ Created on Sat Sep 12 19:45:43 2026
 """
 
 # Simulation of a falling body on Earth
-ACCELERATION_G = 10 # m/s^2
+ACCELERATION_G = 9.80665 # m/s^2
 TIME = 5.0 # seconds
 def calculate_displacement(g, t):
     return 0.5 * g * (t ** 2)
